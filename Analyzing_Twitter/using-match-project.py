@@ -6,7 +6,6 @@ def get_db(db_name):
     return db
 
 def make_pipeline():
-    # complete the aggregation pipeline
     pipeline = [ ]
     dict = {
             "$match" :  {
